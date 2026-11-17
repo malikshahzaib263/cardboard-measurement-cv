@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-11-17T20:01:06.249683+00:00",
+  "original_images": 78,
+  "sam_masks": 76,
+  "clean_pairs": 68,
+  "training_images": 47,
+  "validation_images": 14,
+  "test_images": 7,
+  "test_mean_dice": 0.6098608681458142,
+  "test_mean_iou": 0.5243084606469122,
+  "test_mean_precision": 0.568287942642814,
+  "test_mean_recall": 0.7371459307797201,
+  "model_sha256": "d82e37b4f07104fe413b797edf950f2c5a3a15ac35083d70a0a5f97a4d567cbe",
+  "calibration": "Synthetic checkerboard practice only",
+  "real_camera_calibration": "Not completed",
+  "millimetre_measurement": "Not completed",
+  "physical_accuracy_validation": "Not completed",
+  "map_metrics": "Not yet calculated",
+  "split_note": "Manifest exported after training; not evidence of a pre-training commit"
+}
