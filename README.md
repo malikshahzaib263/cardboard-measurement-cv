@@ -69,3 +69,28 @@ training and is not proof of a pre-training commit.
 
 Hardware, software versions, camera model and
 full execution instructions remain to be documented.
+
+## Project Files — Google Drive
+
+The project was developed and trained using Google Colab.
+
+### Training Notebook
+[Open Cardboard Segmentation Notebook](PASTE_NOTEBOOK_GOOGLE_DRIVE_LINK_HERE)
+
+### Trained U-Net Model
+[Download Trained U-Net Model](PASTE_MODEL_GOOGLE_DRIVE_LINK_HERE)
+
+**Model:** U-Net  
+**Model file:** `cardboard_unet_clean.keras`
+
+**SHA-256:** `d82e37b4f07104fe413b797edf950f2c5a3a15ac35083d70a0a5f97a4d567cbe`
+
+### Evaluation Results
+- Test Dice: 0.6099
+- Test IoU: 0.5243
+- Precision: 0.5683
+- Recall: 0.7371
+- Pixel Average Precision: 0.6479
+
+### Limitations
+Real-camera calibration, reliable millimetre measurement and physical accuracy validation remain incomplete. Synthetic checkerboard calibration was performed for practice only.
